@@ -1,0 +1,648 @@
+@media only screen and (min-width: 768px) and (max-width: 1024px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .cities-list a figure {
+        width: 128px;
+        height: 128px;
+    }
+    .cities-list a figure img {
+        width: 60px;
+    }
+    .ins-quotes-sec {
+        width: 650px;
+        padding: 80px 50px;
+    }
+    .banner-content h2 {
+        font-size: 24px;
+    }
+    .heading {
+        font-size: 24px;
+    }
+    .sub-heading {
+        font-size: 14px;
+    }
+    .cities-list a .hd {
+        font-size: 16px;
+    }
+    .developer-list li a {
+        width: 190px;
+        height: 100px;
+    }
+    .ins-quotes-sec p {
+        font-size: 16px;
+    }
+    .developer-list li figure img {
+        width: 100px;
+    }
+    .branding {
+        width: 80px;
+        overflow: hidden;
+    }
+    .branding img {
+        margin: 0 0 0 -48px;
+    }
+    .hding {
+        font-size: 30px;
+    }
+    .floor-plan-sec-wrap {
+        width: 100%;
+        padding-bottom: 0px;
+        text-align: center;
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .banner-content h2 {
+        font-size: 26px;
+    }
+    .heading {
+        font-size: 24px;
+    }
+    .cities-list {
+        margin: 0;
+    }
+    .cities-list a {
+        margin: 60px 10px 0;
+    }
+    .cities-list a figure {
+        width: 100px;
+        height: 100px;
+    }
+    .cities-list a .hd {
+        font-size: 14px;
+    }
+    .ins-quotes-sec {
+        width: 580px;
+        padding: 30px;
+    }
+    .ins-quotes-sec figure {
+        margin: -90px auto 20px;
+    }
+    .ins-quotes-sec p {
+        font-size: 15px;
+    }
+    .ins-quotes-sec::before {
+        width: 110px;
+        height: 110px;
+        left: -80px;
+        top: -73px;
+        background-size: contain;
+    }
+    .pin-drop-list li {
+        padding: 30px 20px;
+    }
+    .pin-drop-list li .hd {
+        font-size: 16px;
+    }
+    .foot-nav {
+        width: 30%;
+        padding: 0 10px 20px 0;
+    }
+    .tabs-wrapper li {
+        padding: 0;
+    }
+    .tabs-wrapper li a {
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+    .all-plans-sec-wrap .ins-plan-rt-sec {
+        width: 100%;
+        padding: 40px;
+        position: fixed;
+        top: 100%;
+        z-index: 99;
+        height: 100%;
+        left: 0;
+        transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+        -webkit-transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .all-plans-sec-wrap .ins-plan-lt-sec {
+        width: 100%;
+        padding-right: 0;
+    }
+    .close-plan-pop {
+        display: block;
+    }
+    .planbtn-mob {
+        display: none;
+    }
+    .tabs-wrapper {
+        display: none;
+    }
+    .ins-plan-rt-sec {
+        width: 100%;
+        position: fixed;
+        right: 0;
+        z-index: 99;
+        top: 100%;
+        transform: none;
+        -webkit-transform: none;
+        left: 0;
+        height: 100%;
+    }
+    .hding {
+        font-size: 26px;
+    }
+    .ins-abt-plan .ins-abt-plan-lt {
+        padding: 0 20px 0 0;
+    }
+    .about-plan-sec {
+        padding: 20px 0 0 0;
+    }
+    .flplan-list-sec li figure {
+        padding: 0;
+    }
+    .project-advantage-sec .ppadv-sec a {
+        padding: 15px 20px;
+        font-size: 15px;
+    }
+    .overview-sec-wrap .orvew-rt-sec {
+        width: 50%;
+    }
+    .overview-sec-wrap .orvew-lt-sec p {
+        font-size: 13px;
+    }
+    .overview-sec-wrap .orvew-lt-sec {
+        width: 50%;
+    }
+    .branding {
+        width: 80px;
+        overflow: hidden;
+    }
+    .branding img {
+        margin: 0 0 0 -48px;
+    }
+    .details-page-banner .item {
+        height: 35vh;
+    }
+    .detail-section-holder ul li .bhk-status-inner {
+        padding: 0 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .detail-section-holder ul li h5 {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .specification-list .specification-boxes h4 {
+        font-size: 14px;
+    }
+    .specification-list .specification-boxes {
+        padding: 20px;
+    }
+    .specification-list .specification-boxes p {
+        font-size: 13px;
+    }
+    .contact-form-holder h4 {
+        font-size: 40px;
+    }
+    .no-padding {
+        padding: 0;
+    }
+    .no-padding-form {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .branding img {
+        width: 120px;
+    }
+    .cityselect:after {
+        display: none;
+    }
+    .cityselect .selectpicker.btn-default {
+        padding-right: 0;
+    }
+    .cityselect .selectpicker.btn-default {
+        font-size: 12px;
+    }
+    .cityselect {
+        width: 100px;
+    }
+    .cityselect:before {
+        top: 7px;
+    }
+    .search-bar {
+        margin: 0 10px 0 0;
+    }
+    .banner-content {
+        width: calc(100% - 50px);
+    }
+    .banner-content h2 {
+        font-size: 16px;
+    }
+    .banner-content .address {
+        font-size: 13px;
+    }
+    .banner-content .price {
+        font-size: 13px;
+    }
+    .custom-btn {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+    .search-bar {
+        width: 40px;
+        height: 34px;
+    }
+    .search-bar.oepnbar {
+        width: 40px;
+    }
+    .search-bar input {
+        padding-right: 10px;
+        top: calc(100% + 20px);
+        left: -190px;
+        width: 300px;
+        position: absolute;
+    }
+    .heading {
+        font-size: 18px;
+    }
+    .sub-heading {
+        font-size: 13px;
+        line-height: 1.67;
+    }
+    .rightssd {
+        margin: 20px 0 0 0;
+    }
+    .viewall-pp {
+        padding: 8px 20px;
+    }
+    .cities-list {
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .cities-list a {
+        margin: 20px 10px 0;
+    }
+    .cities-list a figure {
+        width: 108px;
+        height: 108px;
+    }
+    .cities-list a .hd {
+        font-size: 16px;
+    }
+    .developer-list {
+        padding: 30px 0 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .developer-list li figure img {
+        width: 90px;
+    }
+    .developer-list li a {
+        margin: 0;
+        width: 100%;
+        height: 100px;
+    }
+    .developer-list li {
+        width: 50%;
+        padding: 5px;
+    }
+    .about-sec-wrap .container {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .about-sec-wrap {
+        padding: 50px 0;
+    }
+    .about-sec-wrap .abt-rt-sec {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+    .about-sec-wrap .abt-rt-sec figure {
+        width: 100%;
+    }
+    .about-sec-wrap .abt-rt-sec figure img {
+        width: 100%;
+    }
+    .about-sec-wrap .abt-rt-sec .quotes-img {
+        left: calc(50% - 45px);
+        top: calc(100% - 45px);
+    }
+    .about-sec-wrap .abt-lt-sec {
+        width: 100%;
+        padding: 0;
+    }
+    .ins-quotes-sec {
+        width: 90%;
+        padding: 30px;
+    }
+    .ins-quotes-sec::before {
+        width: 60px;
+        height: 60px;
+        left: 10px;
+        top: -48px;
+        background-size: contain;
+    }
+    .ins-quotes-sec p {
+        font-size: 13px;
+    }
+    .ins-quotes-sec .hqd {
+        font-size: 13px;
+    }
+    .contactus-sec-wrap .sub-heading {
+        width: 90%;
+    }
+    .pin-drop-list li {
+        width: 100%;
+        border-bottom: 1px solid #ddd;
+    }
+    .pin-drop-list li:last-child {
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .foot-nav {
+        width: 50%;
+        padding: 0 10px 20px 0;
+    }
+    .foot-nav li a {
+        font-size: 12px;
+    }
+    .dwn-pronavi-sec .container .footer-list {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .dwn-pronavi-sec .container .footer-list h4 {
+        font-size: 16px;
+    }
+    .dwn-pronavi-sec .container .footer-list li a {
+        font-size: 12px;
+    }
+    .call-email-sec a.frs {
+        margin: 0 10px 0 0;
+        padding: 0 10px 0 0;
+    }
+    .call-email-sec {
+        font-size: 12px;
+    }
+    .copyright .text {
+        margin: 0 0 20px;
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+    }
+    .social-navigation {
+        margin: 0 auto;
+    }
+    .dwn-pronavi-sec .container .footer-list.last {
+        width: 100%;
+    }
+    .close-plan-pop {
+        display: block;
+    }
+    .planbtn-mob {
+        display: none;
+    }
+    .all-plans-sec-wrap .ins-plan-rt-sec {
+        width: 100%;
+        padding: 40px;
+        position: fixed;
+        top: 100%;
+        z-index: 99;
+        height: 100%;
+        left: 0;
+        transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+        -webkit-transition: all 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    .all-plans-sec-wrap .ins-plan-lt-sec {
+        width: 100%;
+        padding-right: 0;
+    }
+    .close-plan-pop {
+        display: block;
+    }
+    .planbtn-mob {
+        display: flex
+    }
+    .tabs-wrapper {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 58px;
+        background: #0062a5;
+    }
+    .whitesection-wrap .hd-heading {
+        font-size: 16px;
+        padding: 15px 20px;
+    }
+    .property-overview-list .boxes {
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+    .property-overview-list .boxes p {
+        font-size: 14px;
+    }
+    .bhk-list li a {
+        font-size: 13px;
+        padding: 10px 15px;
+    }
+    .ins-tabs-list li a {
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+    .ins-sqr-content .digrm-img {
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .ins-sqr-content .inside-sqr-content {
+        width: 100%;
+    }
+    .ppri-bhk-del .ppdel .nnm {
+        font-size: 16px;
+    }
+    .ppri-bhk-del .ppdel .valc {
+        font-size: 14px;
+    }
+    .amenities-list li {
+        width: 32.3%;
+        padding: 15px 10px;
+        height: 120px;
+    }
+    .amenities-list li p {
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .para {
+        font-size: 14px;
+    }
+    .breadcrumb>li {
+        font-size: 12px;
+    }
+    .normal-wrap .search-bar input {
+        z-index: 9;
+        background: #fff;
+    }
+    .ins-plan-rt-sec {
+        width: 100%;
+        position: fixed;
+        right: 0;
+        z-index: 99;
+        top: 100%;
+        transform: none;
+        -webkit-transform: none;
+        left: 0;
+        height: 100%;
+    }
+    .hding {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .about-plan-sec {
+        padding: 30px 0 0;
+    }
+    .ins-abt-plan {
+        display: flex;
+        margin: 60px 0 20px;
+        flex-wrap: wrap;
+    }
+    .ins-abt-plan .ins-abt-plan-lt .abt-plan-ten {
+        width: 100%;
+    }
+    .ins-abt-plan .ins-abt-plan-rt {
+        width: 100%;
+    }
+    .ins-abt-plan .ins-abt-plan-lt {
+        width: 100%;
+        padding: 0;
+    }
+    .flplan-list-sec li {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .flplan-list-sec {
+        flex-wrap: wrap;
+    }
+    .project-advantage-sec .ppadv-sec {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .project-advantage-sec .hding {
+        margin-bottom: 10px;
+    }
+    .project-advantage-sec .ppadv-sec a {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .gallery-img-sec-list li {
+        width: 50%;
+    }
+    .gallery-sec-wrap .hding {
+        margin-bottom: 20px;
+    }
+    .overview-sec-wrap .orvew-lt-sec {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .overview-sec-wrap .orvew-rt-sec {
+        display: block;
+        width: 100%;
+    }
+    .callbtn span {
+        display: none;
+    }
+    .callbtn i {
+        display: block;
+        font-size: 16px;
+    }
+    .branding img {
+        margin: 0 0 0 0px;
+    }
+    .bottom-section-wrap {
+        display: flex;
+    }
+    .copyright {
+        padding: 15px 0 30px 0;
+    }
+    .callbtn p {
+        display: block;
+        position: absolute;
+        right: calc(100% - 0px);
+        top: 7px;
+        width: 100px;
+        color: #0063a5;
+    }
+    .floor-plan-sec-wrap {
+        width: 100%;
+        padding-bottom: 0px;
+        text-align: center;
+        position: relative;
+    }
+    .overview-sec-wrap.ppoverview-wrap {
+        padding: 20px 0;
+    }
+    .specification-list .specification-boxes {
+        width: 100%;
+    }
+    .product-gallery li {
+        width: 50%;
+    }
+    .contact-form-holder {
+        padding: 0;
+    }
+    .contact-form-holder h4 {
+        font-size: 32px;
+    }
+    .no-padding {
+        padding: 0;
+    }
+    .overview-sec-wrap {
+        padding-bottom: 0;
+    }
+    .overview-sec-wrap .orvew-lt-sec h3 {
+        text-align: center;
+    }
+    .tabs-wrapper li:last-child a {
+        border-bottom: 0;
+    }
+    .tabs-wrapper li {
+        width: 100%;
+    }
+    .tabs-wrapper li a {
+        font-size: 15px;
+        color: #ffffff;
+        padding: 10px 12px;
+        border-bottom: 1px solid #04538a;
+    }
+    .tabs-wrapper li a:hover,
+    .tabs-wrapper li a:focus {
+        color: #fff;
+    }
+    #hamburger {
+        display: block;
+    }
+    .rightbar-sec {
+        margin: 0 50px 0 0;
+    }
+    .inner-banner-wrapper figure img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+    }
+    .inner-banner-wrapper figure .hcap {
+        font-size: 16px;
+        padding: 12px 30px 15px;
+    }
+	
+	.internalpage-wrapper {
+		padding: 0px 0;
+		position: relative;
+	}
+	
+}
+
+@media only screen and (max-width: 1400px) {
+    .callback-form-sec .form-control {
+        padding: 5px 13px;
+    }
+    .callback-form-sec textarea {
+        height: 60px;
+    }
+}
