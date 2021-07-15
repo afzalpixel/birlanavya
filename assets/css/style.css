@@ -2153,7 +2153,7 @@ transition: all 0.3s ease-in-out;
     width: calc(100% - 60px);
     height: calc(100% - 60px);
     content: '';
-    border: 10px solid rgba(0, 107, 179, 0.30);
+    border: 10px solid #875100a6;
 }
 
 .project-advantage-sec .ppadv-sec a {
