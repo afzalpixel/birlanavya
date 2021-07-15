@@ -1340,7 +1340,7 @@ footer {
 .normal-header {
     position: sticky;
     background: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.26);
+    box-shadow: 0 0 5px #e68a00;
     padding: 10px 0;
     top: 0;
     z-index: 99;
