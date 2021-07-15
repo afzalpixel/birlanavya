@@ -250,66 +250,66 @@ textarea:focus {
 }
 
 .gradient-blue {
-    background: #9e5f00;
-    background: -moz-linear-gradient(left, #0067ac 0%, #9e5f00 100%);
-    background: -webkit-linear-gradient(left, #0067ac 0%, #9e5f00 100%);
-    background: linear-gradient(to right, #0067ac 0%, #9e5f00 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0067ac', endColorstr='#9e5f00', GradientType=1);
+    background: #875100;
+    background: -moz-linear-gradient(left, #c47700 0%, #875100 100%);
+    background: -webkit-linear-gradient(left, #c47700 0%, #875100 100%);
+    background: linear-gradient(to right, #c47700 0%, #875100 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c47700', endColorstr='#875100', GradientType=1);
 }
 
 .gradient-blue:hover,
 .gradient-blue:focus {
-    background: #9e5f00;
-    background: -moz-linear-gradient(left, #9e5f00 0%, #0067ac 100%);
-    background: -webkit-linear-gradient(left, #9e5f00 0%, #0067ac 100%);
-    background: linear-gradient(to right, #9e5f00 0%, #0067ac 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#9e5f00', endColorstr='#0067ac', GradientType=1);
+    background: #875100;
+    background: -moz-linear-gradient(left, #875100 0%, #c47700 100%);
+    background: -webkit-linear-gradient(left, #875100 0%, #c47700 100%);
+    background: linear-gradient(to right, #875100 0%, #c47700 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#875100', endColorstr='#c47700', GradientType=1);
 }
 
 .gradient-vertical {
     color: #ffffff !important;
-    background: #9e5f00;
-    background: -moz-linear-gradient(top, #0067ac 0%, #9e5f00 100%);
-    background: -webkit-linear-gradient(top, #0067ac 0%, #9e5f00 100%);
-    background: linear-gradient(to bottom, #0067ac 0%, #9e5f00 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0067ac', endColorstr='#9e5f00', GradientType=0);
+    background: #875100;
+    background: -moz-linear-gradient(top, #c47700 0%, #875100 100%);
+    background: -webkit-linear-gradient(top, #c47700 0%, #875100 100%);
+    background: linear-gradient(to bottom, #c47700 0%, #875100 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c47700', endColorstr='#875100', GradientType=0);
 }
 
 .gradient-vertical:hover,
 .gradient-vertical:focus {
-    background: #9e5f00;
-    background: -moz-linear-gradient(top, #9e5f00 0%, #0067ac 100%);
-    background: -webkit-linear-gradient(top, #9e5f00 0%, #0067ac 100%);
-    background: linear-gradient(to bottom, #9e5f00 0%, #0067ac 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#9e5f00', endColorstr='#0067ac', GradientType=0);
+    background: #875100;
+    background: -moz-linear-gradient(top, #875100 0%, #c47700 100%);
+    background: -webkit-linear-gradient(top, #875100 0%, #c47700 100%);
+    background: linear-gradient(to bottom, #875100 0%, #c47700 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#875100', endColorstr='#c47700', GradientType=0);
 }
 
 .gradient-orange {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff6d00+0,ff9600+100 */
-    background: rgb(255, 109, 0);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/##875100+0,ff9600+100 */
+    background: #875100;
     /* Old browsers */
-    background: -moz-linear-gradient(left, rgba(255, 109, 0, 1) 0%, rgba(255, 150, 0, 1) 100%);
+    background: -moz-linear-gradient(left, #875100 0%, #c47700 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(255, 109, 0, 1) 0%, rgba(255, 150, 0, 1) 100%);
+    background: -webkit-linear-gradient(left, #875100 0%, #c47700 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(255, 109, 0, 1) 0%, rgba(255, 150, 0, 1) 100%);
+    background: linear-gradient(to right, #875100 0%, #c47700 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff6d00', endColorstr='#ff9600', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='##875100', endColorstr='#c47700', GradientType=1);
     /* IE6-9 */
 }
 
 .gradient-orange:hover,
 .gradient-orange:focus {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9600+0,ff6d00+100 */
-    background: rgb(255, 150, 0);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c47700+0,#875100+100 */
+    background: #a7660c;
     /* Old browsers */
-    background: -moz-linear-gradient(left, rgba(255, 150, 0, 1) 0%, rgba(255, 109, 0, 1) 100%);
+    background: -moz-linear-gradient(left, #c47700 0%, #875100 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, rgba(255, 150, 0, 1) 0%, rgba(255, 109, 0, 1) 100%);
+    background: -webkit-linear-gradient(left, #c47700 0%, #875100 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, rgba(255, 150, 0, 1) 0%, rgba(255, 109, 0, 1) 100%);
+    background: linear-gradient(to right, #c47700 0%, #875100 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#ff6d00', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c47700', endColorstr='##875100', GradientType=1);
     /* IE6-9 */
 }
 
@@ -510,7 +510,7 @@ header .container:after {
 }
 
 .toggle-btn:hover span {
-    background: #0067ac;
+    background: #c47700;
 }
 
 .toggle-mobile {
@@ -552,11 +552,11 @@ header .container:after {
 
 .menubar-sidebar li a:hover,
 .menubar-sidebar li a:focus {
-    background: #9e5f00;
-    background: -moz-linear-gradient(top, #0067ac 0%, #9e5f00 100%);
-    background: -webkit-linear-gradient(top, #0067ac 0%, #9e5f00 100%);
-    background: linear-gradient(to bottom, #0067ac 0%, #9e5f00 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0067ac', endColorstr='#9e5f00', GradientType=0);
+    background: #875100;
+    background: -moz-linear-gradient(top, #c47700 0%, #875100 100%);
+    background: -webkit-linear-gradient(top, #c47700 0%, #875100 100%);
+    background: linear-gradient(to bottom, #c47700 0%, #875100 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c47700', endColorstr='#875100', GradientType=0);
     color: #fff;
     text-decoration: none;
 }
@@ -853,18 +853,18 @@ header .container:after {
 }
 
 .viewall-pp {
-    border: 1px solid #0067ac;
+    border: 1px solid #c47700;
     padding: 12px 40px;
-    color: #0067ac;
+    color: #c47700;
     border-radius: 2px;
 }
 
 .viewall-pp:hover {
-    background: #9e5f00;
-    background: -moz-linear-gradient(left, #0067ac 0%, #9e5f00 100%);
-    background: -webkit-linear-gradient(left, #0067ac 0%, #9e5f00 100%);
-    background: linear-gradient(to right, #0067ac 0%, #9e5f00 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0067ac', endColorstr='#9e5f00', GradientType=1);
+    background: #875100;
+    background: -moz-linear-gradient(left, #c47700 0%, #875100 100%);
+    background: -webkit-linear-gradient(left, #c47700 0%, #875100 100%);
+    background: linear-gradient(to right, #c47700 0%, #875100 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#c47700', endColorstr='#875100', GradientType=1);
     color: #fff;
     text-decoration: none;
 }
@@ -2160,7 +2160,7 @@ transition: all 0.3s ease-in-out;
     position: absolute;
     left: 50%;
     top: 50%;
-    background: #e4f30c;
+    background: #875100;
     padding: 20px 30px;
     font-size: 20px;
     color: #000;
@@ -2734,15 +2734,15 @@ border: 3px solid #416165;
 
 .view-all {
     background: transparent;
-    border: solid 2px #9e5f00;
-    color: #9e5f00;
+    border: solid 2px #875100;
+    color: #875100;
     font-weight: 500;
     padding: 12px 40px;
 }
 
 .view-all:hover,
 .view-all:focus {
-    background: #9e5f00;
+    background: #875100;
     color: #ffffff;
 }
 
