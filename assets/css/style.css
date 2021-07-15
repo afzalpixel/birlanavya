@@ -195,7 +195,7 @@ input[type="text"]:hover,
 textarea:hover,
 input[type="text"]:focus,
 textarea:focus {
-    border-color: #ff9301;
+    border-color: #875100;
 }
 
 input[type="text"]:focus,
@@ -1562,7 +1562,7 @@ transition: all 0.3s ease-in-out;
     background: #fff;
     padding: 20px;
     position: absolute;
-    border-top: 5px solid #ff9301;
+    border-top: 5px solid #875100;
     right: 60px;
     z-index: 9;
     top: 50%;
