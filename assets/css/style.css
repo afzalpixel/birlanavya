@@ -2350,7 +2350,7 @@ transition: all 0.3s ease-in-out;
 .detail-section-holder ul li {
     width: 33.3%;
     display: inline-block;
-    border-right: 1px solid #c3cbdf;
+    border-right: 1px solid #cc9a4f;
     max-height: 110px;
     overflow: hidden;
 }
