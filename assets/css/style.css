@@ -890,7 +890,7 @@ header .container:after {
     width: 158px;
     height: 158px;
     background: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #cc9a4f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1154,7 +1154,7 @@ header .container:after {
 .pin-drop-list li {
     width: 33.3%;
     text-align: center;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #cc9a4f;
     padding: 70px 40px;
 }
 
@@ -1734,7 +1734,7 @@ transition: all 0.3s ease-in-out;
     display: inline-block;
     width: 16.7%;
     padding: 20px 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #cc9a4f;
     height: 140px;
     margin: -1px 0 0 -1px;
 }
@@ -1780,7 +1780,7 @@ transition: all 0.3s ease-in-out;
 .conts-delo {
     display: table;
     margin: 0 auto 30px;
-    border: 1px solid #ddd;
+    border: 1px solid #cc9a4f;
     padding: 20px;
 }
 
@@ -2079,7 +2079,7 @@ transition: all 0.3s ease-in-out;
 }
 
 .flplan-list-sec li figure {
-    border: 1px solid #ddd;
+    border: 1px solid #cc9a4f;
     padding: 30px 0;
     margin-bottom: 20px;
     position: relative;
@@ -2234,9 +2234,9 @@ transition: all 0.3s ease-in-out;
 .overview-sec-wrap .orvew-rt-sec .ins-plan-rt-sec {
     position: sticky;
     transform: none;
-    border-left: 5px solid #ddd;
-    border-right: 5px solid #ddd;
-    border-bottom: 5px solid #ddd;
+    border-left: 5px solid #cc9a4f;
+    border-right: 5px solid #cc9a4f;
+    border-bottom: 5px solid #cc9a4f;
     top: 90px;
     z-index: 1;
 }
