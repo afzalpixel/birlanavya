@@ -51,9 +51,11 @@
                 <ul class="tabs-wrapper clearfix">
                     <li><a href="#">Home</a></li>
                     <li><a href="#price">Price</a></li>
+		    <li><a href="#payment-plan">Payment Plan</a></li>
                     <li><a href="#floorpLan">Floor Plan</a></li>
                     <li><a href="#amentiestabs">Amenities</a></li>
                     <li><a href="#loctabs">Location</a></li>
+		    <li><a href="#video">Video</a></li>
                     <li><a href="#gallery">Gallery</a></li>
                 </ul>
                 <!-- Menu Bar End -->
@@ -218,14 +220,25 @@
                                 <tr>
                                     <th height="44" bgcolor="#9e5f00" style="color: #ffffff; text-align: center;">Type</th>
                                     <th height="44" bgcolor="#9e5f00" style="color: #ffffff; text-align: center;">Area (Sq.Ft.)</th>
+				    <th height="44" bgcolor="#9e5f00" style="color: #ffffff; text-align: center;">Area (Sq.Mt.)</th>
                                     <th height="44" bgcolor="#9e5f00" style="color: #ffffff; text-align: center;">Rate</th>
                                     <th height="44" bgcolor="#9e5f00" style="color: #ffffff; text-align: center;">Floor Plan</th>
                                 </tr>
                             </thead>
                             <tbody style="text-align: center;">
                                 <tr>
-                                    <td>2 BHK</td>
+                                    <td>2 BHK +2T</td>
                                     <td>764-778</td>
+                                    <td>Sold Out</td>
+                                    <td>
+                                        <div>
+                                            <button type="button" class="btn_enq gradient-blue" data-toggle="modal" data-target="#myModal1">Floor Plan</button>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>3 BHK + 3T </td>
+                                    <td>1261-1331</td>
                                     <td>On Request</td>
                                     <td>
                                         <div>
@@ -234,17 +247,7 @@
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td>3 BHK </td>
-                                    <td>1099-1119</td>
-                                    <td>On Request</td>
-                                    <td>
-                                        <div>
-                                            <button type="button" class="btn_enq gradient-blue" data-toggle="modal" data-target="#myModal1">Floor Plan</button>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3 BHK + SQ</td>
+                                    <td>3 BHK + 3T</td>
                                     <td>1165-1200</td>
                                     <td>On Request</td>
                                     <td>
@@ -253,8 +256,18 @@
                                         </div>
                                     </td>
                                 </tr>
+				    <tr>
+                                    <td>3 BHK + 3T + Utility</td>
+                                    <td>2000-1200</td>
+                                    <td>On Request</td>
+                                    <td>
+                                        <div>
+                                            <button type="button" class="btn_enq gradient-blue" data-toggle="modal" data-target="#myModal1">Floor Plan</button>
+                                        </div>
+                                    </td>
+                                </tr>
                                 <tr>
-                                    <td>4 BHK</td>
+                                    <td>4 BHK + 4T (Utility)</td>
                                     <td>1540-1693</td>
                                     <td>On Request</td>
                                     <td>
@@ -357,12 +370,8 @@
                 </div>
             </div>
         </div>
-		
-		
-		
-        
-		
-		<div class="inner-content-section tablebg clearfix">
+	    
+	<div class="inner-content-section tablebg clearfix">
             <div class="container all-plans-sec-wrap">
                 <div class="project-advantage-sec" id="loctabs">
                     <h3 class="hding">PROJECT ADVANTAGES</h3>
@@ -403,9 +412,9 @@
         </div>
 		
 		<div class="inner-content-section tablebg galerrym-wrap clearfix">
-            <div class="container specification-wrap clearfix">
+            <div class="container specification-wrap clearfix" id="video">
                 <h2 class="hding">Video</h2>
-                <iframe width="100%" height="415" src="https://www.youtube.com/embed/Tsn10bJGSEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                <iframe width="100%" height="415" src="https://www.youtube.com/embed/1BR6nkLOPQI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 			</div>
         </div>
 		
