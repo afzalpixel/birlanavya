@@ -1308,7 +1308,7 @@ footer {
 }
 
 .copyright .text {
-    color: #fffff;
+    color: #fffff !important;
     margin: 0;
 }
 
