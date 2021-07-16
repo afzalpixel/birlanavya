@@ -2514,6 +2514,7 @@ transition: all 0.3s ease-in-out;
 
 .container.specification-wrap {
     padding-top: 50px;
+    padding-bottom: 15px;
 }
 
 .product-gallery {
