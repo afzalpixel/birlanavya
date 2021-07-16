@@ -1951,7 +1951,7 @@ transition: all 0.3s ease-in-out;
 
 .planbtn-mob {
     position: relative;
-    background: #ff9300;
+    background: #875100;
     display: none;
     cursor: pointer;
     width: calc(50% - 5px);
