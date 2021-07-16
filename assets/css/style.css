@@ -1511,13 +1511,13 @@ footer {
 }
 
 .tabs-wrapper li a.activetab {
-    color: #000;
+    color: #875100;
     font-weight: 600;
 }
 
 .tabs-wrapper li a:hover,
 .tabs-wrapper li a:focus {
-    color: #000;
+    color: #875100;
     text-decoration: none;
 }
 
